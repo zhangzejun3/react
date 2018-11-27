@@ -1,7 +1,7 @@
 {
   "main.css": "/react/bulid/static/css/main.844ed4bf.chunk.css",
-  "main.js": "/react/bulid/static/js/main.224607e2.chunk.js",
-  "main.js.map": "/react/bulid/static/js/main.224607e2.chunk.js.map",
+  "main.js": "/react/bulid/static/js/main.57319a8c.chunk.js",
+  "main.js.map": "/react/bulid/static/js/main.57319a8c.chunk.js.map",
   "static/js/1.2dd891c4.chunk.js": "/react/bulid/static/js/1.2dd891c4.chunk.js",
   "static/js/1.2dd891c4.chunk.js.map": "/react/bulid/static/js/1.2dd891c4.chunk.js.map",
   "runtime~main.js": "/react/bulid/static/js/runtime~main.ff425c64.js",
@@ -9,6 +9,6 @@
   "static/media/logo.svg": "/react/bulid/static/media/logo.5d5d9eef.svg",
   "static/css/main.844ed4bf.chunk.css.map": "/react/bulid/static/css/main.844ed4bf.chunk.css.map",
   "index.html": "/react/bulid/index.html",
-  "precache-manifest.000bd47214b1e4ecfedb7d45fc297cd4.js": "/react/bulid/precache-manifest.000bd47214b1e4ecfedb7d45fc297cd4.js",
+  "precache-manifest.2497c606cc65e9752427d3b4a4acee1b.js": "/react/bulid/precache-manifest.2497c606cc65e9752427d3b4a4acee1b.js",
   "service-worker.js": "/react/bulid/service-worker.js"
 }
