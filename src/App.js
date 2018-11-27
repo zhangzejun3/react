@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+function fn(){
+  alert('hi')
+}
 class App extends Component {
   render() {
     return (
@@ -11,6 +14,7 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
+          <button onClick={fn}>点我</button>
           <a
             className="App-link"
             href="https://reactjs.org"
