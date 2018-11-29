@@ -1,17 +1,24 @@
 import React, { Component } from 'react';
-import Box1 from './Box1'
-import Box2 from './Box2'
-
 
 class App extends Component {
-  render() {
-    return (
-      <div>
-        <Box1 />
-        <Box2 />
-      </div>
-    )
-  }
+    constructor () {
+        super()
+        this.state = { isLiked: false }
+      }
+    
+      handleClickOnLikeButton () {
+        this.setState({
+          isLiked: !this.state.isLiked
+        })
+      }
+    
+      render () {
+        return (
+          <button onClick={this.handleClickOnLikeButton.bind(this)}>
+            {this.state.isLiked ? '取消' : '点赞'} 👍
+          </button>
+        )
+      }
 }
 
 export default App;

@@ -12,9 +12,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.red span{
-  color: red;
-  display: inline-block;
-  width: 2em;
-  text-align: center;
+h1{
+  color: #000;
 }
