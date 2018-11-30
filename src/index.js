@@ -1,37 +1,20 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import Clock from './Clock'
+import Post from './Post'
 
-class Index extends Component{
-  constructor(){
-    super()
-    this.state = {
-      isShowClock:true
-    }
-  }
-
-  handleClock(){
-    this.setState({
-      isShowClock:!this.state.isShowClock 
-    })
-  }
-
-  render(){
-    return(
+class Index extends Component {
+  render() {
+    return (
       <div className='wrapper'>
-      {this.state.isShowClock?<Clock/>:null}
-      <div>
-      <button onClick={this.handleClock.bind(this)}>
-      {this.state.isShowClock?'隐藏时钟':'显示时钟'}
-      </button>
-      </div>
+        <h1>掷骰子</h1>
+        <Post />
       </div>
     )
   }
 }
 
-  ReactDOM.render(
-    <Index />,
-    document.getElementById('root')
-  )
+ReactDOM.render(
+  <Index />,
+  document.getElementById('root')
+)

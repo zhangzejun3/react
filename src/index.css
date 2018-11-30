@@ -4,4 +4,13 @@ body {
   font-family: sans-serif;
   background-color: #fbfbfb;
 }
-
+.wrapper{
+  margin: 0 20px;
+  text-align: center;
+}
+.post{
+  text-align: center;
+}
+.post-content{
+  margin: 10px;
+}
