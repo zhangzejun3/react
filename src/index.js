@@ -1,20 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom'
+import CommentApp from './CommentApp'
 import './index.css'
-import Post from './Post'
-
-class Index extends Component {
-  render() {
-    return (
-      <div className='wrapper'>
-        <h1>掷骰子</h1>
-        <Post />
-      </div>
-    )
-  }
-}
 
 ReactDOM.render(
-  <Index />,
+  <CommentApp />,
   document.getElementById('root')
-)
+);
